@@ -1,8 +1,7 @@
 import React from 'react'
 
 
-const ShopCard = (props) => {
-  const {card} = props;
+const ShopCard = ({card}) => {
   console.log(card);
 
   return (

@@ -1,23 +1,10 @@
-import React from 'react'
 import './iconSwitch.css';
 
-const IconSwitch = (props) => {
-  console.log(props);
-  const {icon} = props;
-  const {onSwitch} = props;
-
-  // const showProductsCards = 'view_list';
-  // if (icon === showProductsCards)
+const IconSwitch = ({icon, onSwitch}) => {
   return (
-    <>
-      <div className='layout' onClick={onSwitch}>
-        <span class="material-icons icon-switch">{icon}</span>
-      </div>
-      {/* <CardsView state={icon}/>
-      <ListView state={icon}/> */}
-      {/* <App state={icon}/> */}
-    </>
-    
+    <div className='layout' onClick={onSwitch}>
+      <span class="material-icons icon-switch">{icon}</span>
+    </div>    
   )
 }
 

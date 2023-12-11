@@ -1,14 +1,6 @@
-import React from 'react'
 import ShopCard from './ShopCard';
 
-const CardsView = (props) => {
-  const {products} = props;
-  const {state} = props;
-  console.log(props);
-
-  // const produtsCards = <ShopCard card={products[0]}/>;
-  // console.log(produtsCards);
-
+const CardsView = ({products, state}) => {
   const produtsCards = products.map((product) =>(<ShopCard card={product}/>));
   console.log(produtsCards);
 

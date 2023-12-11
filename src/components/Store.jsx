@@ -3,10 +3,7 @@ import CardsView from './CardsView';
 import IconSwitch from './IconSwitch';
 import ListView from './ListView';
 
-const Store = (props) => {
-  const { products } = props;
-  console.log(props);
-
+const Store = ({products}) => {
   const initial = 'view_list';
   const [state, setState] = useState(initial);
 

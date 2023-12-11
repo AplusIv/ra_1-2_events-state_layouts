@@ -1,9 +1,4 @@
-import React from 'react'
-
-const ShopItem = (props) => {
-  const {item} = props;
-  console.log(item);
-
+const ShopItem = ({item}) => {
   return (
     <div className='product-list'>
       <img className='card-img' src={item.img} alt={item.name + '\'s pic'}/>
