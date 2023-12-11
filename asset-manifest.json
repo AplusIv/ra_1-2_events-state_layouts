@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ra_1-2_events-state_layouts/static/css/main.099999ac.css",
+    "main.js": "/ra_1-2_events-state_layouts/static/js/main.51984b92.js",
+    "static/js/787.d26ae9de.chunk.js": "/ra_1-2_events-state_layouts/static/js/787.d26ae9de.chunk.js",
+    "index.html": "/ra_1-2_events-state_layouts/index.html",
+    "main.099999ac.css.map": "/ra_1-2_events-state_layouts/static/css/main.099999ac.css.map",
+    "main.51984b92.js.map": "/ra_1-2_events-state_layouts/static/js/main.51984b92.js.map",
+    "787.d26ae9de.chunk.js.map": "/ra_1-2_events-state_layouts/static/js/787.d26ae9de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.099999ac.css",
+    "static/js/main.51984b92.js"
+  ]
+}
