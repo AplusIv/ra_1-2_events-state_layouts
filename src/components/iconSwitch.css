@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.material-icons {
+  cursor: pointer;
+}
+
+.layout {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: end;
+}
